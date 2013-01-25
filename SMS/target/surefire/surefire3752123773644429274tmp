@@ -1,0 +1,37 @@
+#surefire
+#Fri Jan 25 14:36:28 IST 2013
+testClassesDirectory=C\:\\shreshthWorkSpace\\SMS\\target\\test-classes
+classPathUrl.4=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\org\\sakaiproject\\entitybus\\entitybus-impl\\1.0.2\\entitybus-impl-1.0.2.jar
+classPathUrl.3=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\org\\sakaiproject\\entitybus\\entitybus-api\\1.0.2\\entitybus-api-1.0.2.jar
+classPathUrl.2=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\javax\\servlet\\servlet-api\\2.4\\servlet-api-2.4.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\shreshthWorkSpace\\SMS\\target\\classes
+reportsDirectory=C\:\\shreshthWorkSpace\\SMS\\target\\surefire-reports
+classPathUrl.0=C\:\\shreshthWorkSpace\\SMS\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\shreshthWorkSpace\\SMS\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.1\\surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=C\:\\shreshthWorkSpace\\SMS\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+classPathUrl.12=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\mysql\\mysql-connector-java\\5.1.2\\mysql-connector-java-5.1.2.jar
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.11=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\junit\\junit\\3.8.2\\junit-3.8.2.jar
+classPathUrl.10=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\commons-codec\\commons-codec\\1.2\\commons-codec-1.2.jar
+classPathUrl.9=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\commons-logging\\commons-logging\\1.0.4\\commons-logging-1.0.4.jar
+classPathUrl.8=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\commons-httpclient\\commons-httpclient\\3.1\\commons-httpclient-3.1.jar
+classPathUrl.7=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\org\\sakaiproject\\entitybus\\entitybus-utils\\1.0.2\\entitybus-utils-1.0.2.jar
+childDelegation=false
+classPathUrl.6=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\org\\sakaiproject\\entitybus\\entitybus-rest\\1.0.2\\entitybus-rest-1.0.2.jar
+classPathUrl.5=C\:\\Documents and Settings\\Administrator\\.m2\\repository\\org\\azeckoski\\reflectutils\\0.9.10\\reflectutils-0.9.10.jar

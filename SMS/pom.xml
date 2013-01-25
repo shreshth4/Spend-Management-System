@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<name>SMS Webapp</name>
+	<groupId>org.sakaiproject.entitybus</groupId>
+	<artifactId>entitybus-webapp</artifactId>
+
+	<packaging>war</packaging>
+
+	<!-- the base is parent -->
+	<parent>
+		<artifactId>entitybus</artifactId>
+		<groupId>org.sakaiproject</groupId>
+		<version>1.0.2</version><!--entitybus.version-->
+	</parent>
+
+	<repositories>
+		<repository>
+			<id>sakai-maven</id>
+			<name>Sakai Maven Repo</name>
+			<layout>default</layout>
+			<url>http://source.sakaiproject.org/maven2</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- standard webapp stuff -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+		</dependency>
+		<!-- REST handling -->
+		<dependency>
+			<groupId>org.sakaiproject.entitybus</groupId>
+			<artifactId>entitybus-api</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.sakaiproject.entitybus</groupId>
+			<artifactId>entitybus-impl</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.sakaiproject.entitybus</groupId>
+			<artifactId>entitybus-rest</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.sakaiproject.entitybus</groupId>
+			<artifactId>entitybus-utils</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<type>jar</type>
+		</dependency>
+
+		<!-- MySQL database driver -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.2</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>sms</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<webXml>WebContent\WEB-INF\web.xml</webXml>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+
+</project>
